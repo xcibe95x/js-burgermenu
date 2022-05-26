@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar</title>
+</head>
+<body>
+    
+    
+
+    <div class="desktop-nav">
+        <!-- Desktop Nav -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Scopri il Corso</a></li>
+            <li><a href="#">La nostra storia</a></li>
+            <li><a class="button" href="#">Accedi</a></li>
+        </ul>
+    </div>
+
+        <!-- Mobile Nav -->
+        <div id="navbar" class="mobile-nav">
+            <div class="nav-bar">
+                <button class="nav-btn" onClick="toggleMenu();">
+                    <img id="openMenu" src="./img/bars-solid.svg">
+                    <img id="closeMenu" class="nav-hide" src="./img/xmark-solid.svg">
+                </button>
+            </div>
+    
+            <div id="jnav">
+                <div class="navlinks">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Scopri il Corso</a></li>
+                    <li><a href="#">La nostra storia</a></li>
+                    <li><a href="#">Iscriviti</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        <script src="navbar.js"></script>
+</body>
+</html>
